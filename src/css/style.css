@@ -1,0 +1,278 @@
+:root {
+    --fonte-header: 'Poppins', sans-serif;
+    --fonte-body: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: var(--fonte-body);
+}
+
+p {
+    font-size: 0.9em;
+}
+
+h3 {
+    color: hsl(192, 100%, 9%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    font-family: var(--fonte-body);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header img {
+    width: 100px;
+    height: 17px;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.header p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    color: hsl(321, 100%, 78%);
+    border: 2px solid hsl(321, 100%, 78%);
+    border-radius: 20px;
+}
+
+.header p:hover {
+    background-color: hsl(321, 100%, 78%);
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.get-started, .get-started-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+    color: hsl(192, 100%, 9%);
+}
+
+.get-started, .get-started-2 {
+    margin-bottom: 200px;
+}
+
+.get-started h1, .get-started p {
+    margin-bottom: 100px;
+}
+
+.get-started a > p {
+    margin: 0;
+}
+
+.get-started h1, .get-started-2 h4 {
+    text-align: center;
+    font-size: 1.6em;
+}
+
+.get-started a > p, .get-started-2 a > p {
+    background-color: hsl(322, 100%, 66%);
+    width: 200px;
+    color: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.336);
+    border: 1px;
+    font-weight: 700;
+    border-radius: 40px;
+    padding: 15px;
+}
+
+.community {
+    text-align: center;
+}
+
+.community .screen-mockups, .community p {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.community p {
+    color: hsla(192, 100%, 9%, 0.534);
+}
+
+.com-h2 {
+    font-size: 4.5em;
+}
+
+.msg-h2 {
+    font-size: 4em;
+}
+
+.img {
+    position: relative;
+    width: 35px;
+    right: 70px;
+}
+
+.website-info {
+    text-align: center;
+}
+
+.website-info img {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.website-info h3 {
+    font-size: 1.3em;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.website-info p {
+    padding-bottom: 200px;
+    font-size: 0.85em;
+    color: hsl(192, 100%, 9%);
+}
+
+.get-started-2 h4 {
+    margin-bottom: 40px;
+}
+
+.footer-img {
+    width: 100%;
+    background-color:white;
+    margin-bottom: 50px;
+}
+
+.img-desktop {
+    display: none;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.footer h5 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.footer-text > p {
+    font-size: 1.0em;
+    margin-bottom: 30px;
+}
+
+.footer #ipt-email {
+    padding: 15px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-end;
+}
+
+form > .submit {
+    padding: 15px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: 700;
+    font-family: var(--fonte-body);
+    font-size: 1.0em;
+}
+
+.img-huddle {
+    margin-top: 120px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+    width: 200px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.phone::before {
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+    content: '\f2a0';
+}
+
+.email::before {
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+    content: '\f0e0';
+}
+
+.social-media {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.social-media i {
+    font-size: 1.5em;
+}
+
+.attribution {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.attribution a {
+    color: white;
+    font-size: 1.2em;
+}
+
+.attribution a:hover {
+    font-size: 1.4em;
+    text-decoration: underline;
+    font-style: italic;
+}
